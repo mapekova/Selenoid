@@ -1,0 +1,72 @@
+{
+    "MicrosoftEdge": {
+        "default": "latest",
+        "versions": {
+            "latest": {
+                "image": [
+                    "C:\\Windows\\System32\\MicrosoftWebDriver.exe",
+                    "--host=127.0.0.1",
+                    "--verbose"
+                ],
+                "port": "",
+                "path": "/"
+            }
+        }
+    },
+    "chrome": {
+        "default": "latest",
+        "versions": {
+            "latest": {
+                "image": [
+                    "C:\\Users\\30018\\.aerokube\\selenoid\\chromedriver.exe",
+                    "--whitelisted-ips=''",
+                    "--verbose"
+                ],
+                "port": "",
+                "path": "/"
+            }
+        }
+    },
+    "firefox": {
+        "default": "latest",
+        "versions": {
+            "latest": {
+                "image": [
+                    "C:\\Users\\30018\\.aerokube\\selenoid\\geckodriver.exe",
+                    "--host",
+                    "127.0.0.1",
+                    "--log",
+                    "debug"
+                ],
+                "port": "",
+                "path": "/"
+            }
+        }
+    },
+    "internet explorer": {
+        "default": "latest",
+        "versions": {
+            "latest": {
+                "image": [
+                    "C:\\Users\\30018\\.aerokube\\selenoid\\IEDriverServer.exe"
+                ],
+                "port": "",
+                "path": "/"
+            }
+        }
+    },
+    "opera": {
+        "default": "latest",
+        "versions": {
+            "latest": {
+                "image": [
+                    "C:\\Users\\30018\\.aerokube\\selenoid\\operadriver_win64\\operadriver.exe",
+                    "--whitelisted-ips=''",
+                    "--verbose"
+                ],
+                "port": "",
+                "path": "/"
+            }
+        }
+    }
+}
